@@ -39,7 +39,7 @@ textarea:focus {
     transition: color 0.2s ease;
 }
 
-/* Jab limit reach ho jaye tab ke liye classes */
+/* when limit is reached */
 .error-border {
     border-color: #ef4444 !important;
 }
@@ -48,3 +48,4 @@ textarea:focus {
     color: #ef4444;
     font-weight: bold;
 }
+
