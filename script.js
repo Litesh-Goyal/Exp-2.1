@@ -5,7 +5,7 @@ const maxLength = 1000;
 textarea.addEventListener('input', () => {
     const currentLength = textarea.value.length;
     
-    // Counter text update karo
+    // Counter text update 
     counter.innerText = `${currentLength}/${maxLength}`;
 
     // Reactive UI Logic: Check if limit is reached
@@ -17,3 +17,4 @@ textarea.addEventListener('input', () => {
         textarea.classList.remove('error-border');
     }
 });
+
